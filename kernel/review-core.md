@@ -41,6 +41,7 @@ correct - otherwise report them as regressions.
 
 Load these files based on what the patch touches:
 
+- Industrial I/O (drivers/iio) → `iio.md`
 - Network code (net/, drivers/net, skb_, sockets) → `networking.md`
   - Remember that you've loaded the networking subsystem, you'll use this later
 - Memory management (mm/, page/folio ops, alloc/free, slab, or vmalloc APIs — `__GFP_`, `page_`, `folio_`, `kmalloc`, `kmem_cache_`, `vmalloc`, `alloc_pages` or similar → `mm.md`
